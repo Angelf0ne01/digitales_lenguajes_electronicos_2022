@@ -88,3 +88,38 @@ los caracteres se almacenan como números. Puede ver la codificación específic
 
 ```
 
+### Funciones
+
+Las funciones son bloques de código utilizados para dividir un programa en partes más pequeñas, cada una de las cuáles tendrá una tarea determinada.
+La modularización, es una técnica usada por los programadores para hacer sus códigos más cortos, ya que consiste en reducir un gran problema complejo, en pequeños problemitas más sencillos, concentrándose en la solución por separado, de cada uno de ellos.
+
+En C, se conocen como funciones aquellos trozos de códigos utilizados para dividir un programa con el objetivo que, cada bloque realice una tarea determinada.
+
+En las funciones juegan un papel muy importe las variables, ya que como se ha dicho estas pueden ser locales o globales.
+
+Variables Globales: Estas se crean durante toda la ejecución del programa, y son globales, ya que pueden ser llamadas, leídas, modificadas, etc; desde cualquier función. Se definen antes del main().
+
+Variables Locales: Estas, pueden ser utilizadas únicamente en la función que hayan sido declaradas.
+
+La sintaxis de una función es la siguiente:
+
+> Tipo_de_datos nombre_de_la_funcion(tipo y nombre de argumentos)
+{
+    acciones
+}
+
+ 
+
+donde:
+**Tipo_de_datos**: Es el tipo de dato que devolverá esa función, que puede ser real, entera, o tipo void(es decir que no devolverá ningún valor).
+**Nombre_de_la_funcion**: Es el identificador que le damos a nuestra función, la cual debe cumplir las reglas que definimos en un principio para los identificadores.
+**Tipo y nombre de argumentos**: son los parámetros que recibe la función. Los argumentos de una función no son más que variables locales que reciben un valor. Este valor se lo enviamos al hacer la llamada a la función. Pueden existir funciones que no reciban argumentos.
+**Acciones**: Constituye el conjunto de acciones, de sentencias que cumplirá la función, cuando sea ejecutada. Entre ellas están:
+Asignaciones
+Lecturas
+Impresiones
+Cálculos, etc
+
+
+Una función, termina con la llave de cerrar, pero antes de esta llave, debemos colocarle la instrucción return, con la cual devolverá un valor específico. Es necesario recalcar que si la función no devuelve ningún valor, es decir, es tipo void, no tiene que ir la sentencia return, ya que de lo contrario, nos dará un error.
+
