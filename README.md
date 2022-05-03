@@ -7,3 +7,4 @@
 - Clase 5: Repaso - For
 - Clase 6: Repaso - While
 - Clase 7: Maquina de Estados. 
+- Clase 8: Millis
