@@ -1,4 +1,4 @@
-#  Clase Nº 2
+#  Clase Nº 3
 ## Temas: 
 ### if - else
 
