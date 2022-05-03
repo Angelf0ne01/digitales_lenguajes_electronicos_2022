@@ -63,7 +63,7 @@ Esta matriz tendría 12 espacios para guardar información (3x4), y gráficament
 ![bidimensional](http://solucioningenieril.com/imagenes/asignaturas/programacion_en_c/tema_37/1.png "bidimensional")
 
 ___
-#### Defines:
+### Defines:
 
 **#define** un componente C útil que permite al programador dar un nombre a un valor constante antes de compilar el programa. Las constantes definidas en arduino no ocupan ningún espacio de memoria de programa en el chip. El compilador reemplazará las referencias a estas constantes con el valor definido en el momento de la compilación.
 
